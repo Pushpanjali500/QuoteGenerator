@@ -1,0 +1,64 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Dosis:wght@200&family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Lobster&family=Mulish:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,200;1,300;1,400;1,600;1,700;1,800;1,900;1,1000&family=Nunito:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900;1,1000&family=Poppins&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.App{
+  display: flex;
+  justify-content: center;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+}
+h1{
+  font-size: 5em;
+  text-shadow: 2px 2px 10px orange;
+}
+.quote {
+  background: url(./img1.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 600px;
+  height: 500px;
+  color: black;
+  border-radius: 30px;
+  overflow: hidden;
+  padding: 80px;
+  text-align: center;
+  display: flex;
+  object-fit: contain;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.quote h2{
+  font-size: 2em;
+  font-family: 'Lobster', cursive;
+  font-weight: 600;
+}
+.quote small{
+  font-size: 1.5em;
+  font-family: 'Dancing Script', cursive;
+  line-height: 1.5em;
+}
+.btn {
+	display: block;
+	border: 2px solid #008CBA;
+	background: transparent;
+	padding: 15px 15px;
+	color: #008CBA;
+	font-size: 20px;
+  font-family: 'Lobster', cursive;
+	border-radius: 10px;
+	cursor: pointer;
+	outline: none;
+	transition: background 1s, color 1s;
+}
+.btn:hover{
+	background: #008CBA;
+	color: #fff;
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
